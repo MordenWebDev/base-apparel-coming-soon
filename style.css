@@ -1,4 +1,4 @@
-/* css reset */ v2
+/* css reset */
 * {
     box-sizing: border-box;
 }
@@ -25,13 +25,6 @@ main {
 }
 
 /* heroimage for mobile default style */
-.heroimage {
-    /* background-image: url(images/hero-mobile.jpg); */
-    background-repeat: no-repeat;
-    background-size: contain;
-    /* opacity: 0; */
-
-}
 
 /* cotent of hero section */
 .content {
@@ -129,8 +122,10 @@ span {
     display: flex;
     align-items: center;
     align-self: flex-start;
-    margin-left: 7rem;
+    margin-left: 4.5rem;
     opacity: 0;
+    margin-top: -1rem;
+
 
 }
 
@@ -180,17 +175,14 @@ span {
     }
 
     /* displaying hero image as background */
-    .heroimage {
-        background-image: url(images/hero-mobile.jpg);
-        opacity: 1;
+    .heroimage img {
         width: 370px;
-        height: 250px;
+        height: 350px;
+
     }
 
-    /* hiding already existing image */
-    .heroimage--displayNone {
-        display: none;
-    }
+
+
 
     .content__title {
         font-size: 3rem;
@@ -204,11 +196,11 @@ span {
 
     .cta {
         align-self: center;
-        margin-left: 0%;
+        margin-left: 2rem;
     }
 
     .error {
         align-self: center;
-        margin-left: 0%;
+        margin-left: -6rem;
     }
 }
